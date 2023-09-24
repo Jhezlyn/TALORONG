@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <style>
+        p,
+        h3 {
+            padding: 5px;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 2, 1fr;
+            grid-template-rows: 4, 1vh;
+            grid-template-areas: 
+            "name name"
+            "intro1 intro1"
+            "picture intro2"
+            "skills hobbies";
+            gap: 5px;
+
+        }
+
+
+
+        .name {
+            background-color: rgb(238, 98, 98);
+        }
+        .intro1 {
+            background-color: rgb(212, 118, 63);
+        }
+        .picture {
+            background-color: rgb(250, 246, 248);
+        }
+        .intro2 {
+            background-color: rgb(221, 36, 23);
+        }
+        .skills {
+            background-color: rgb(199, 22, 99);
+        }
+        .hobbies {
+            background-color: rgb(209, 79, 135);
+        }
+
+
+
+        
+
+
+        .name {
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        .intro1 {
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+        .picture {
+            grid-column: 1/3;
+            grid-row: 3/4;
+        } 
+        .intro2{
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+        .skills{
+            grid-column: 1/2;
+            grid-row: 4/5;
+        }      
+         .hobbies {
+            grid-column: 2/3;
+            grid-row: 4/5;
+        }
+  
+    </style>
+</head>
+<body>
+    
+
+<div class="container">
+            <div class="name">
+                <center><h1>Jhezlyn Talorong</h1></center>
+            </div>
+
+            <div class="intro1">
+                <center><h2> Hi! This Jhezlyn T. Talorong 20,years of age A student of Central Philippines State Universtiry took a Bachelor of Science in Information Technology.</h2></center>
+            </div>
+            <div class="picture">
+                <img src= "nen.jpg" width="350" height="300">
+            </div>
+            <div class="intro2">
+                 <h3>My name is Jhezlyn T. Talorong 21 years of age the daughter of Mr. and Mrs. Jebbs and Robelyn Talorong, I have seven siblings and I'm the second one among the eight, We lived in Barangay Su-ay,Himamaylan City Negros Occidental. I finished my Elementary at Ceferino Gargaritano Elementary School and finished my Junior and Senior HighSchool at Binicuil National HighSchool, and now a 3rd year student of Central Philippines State University took a Bachelor of Science in Information Technology . My goals in life is to finish my studies, get a stable job to build my own business,and lastly I wanted to help and spoil my parents, family and myself with my own money.</h3>
+            </div>
+            <div class="skills">
+                 <center><h2>Skills: Playing Guitar, Cooking  and Learning new things.</h2></center>
+            </div>
+         <div class="hobbies">
+                <center><h2>Hobbies: Eating and Sleeping</h2></center>
+         </div>
+
+</body>
+</html>
